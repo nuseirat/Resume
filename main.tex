@@ -1,0 +1,303 @@
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\begin{center}
+    \textbf{\Huge \scshape Mohammed Alnuseirat} \\ \vspace{1pt}
+    \small 966552704172 $|$ \href{mailto:mnuseirat@outlook.sa}{\underline{mnuseirat@outlook.sa}} $|$ 
+    \href{https://www.linkedin.com/in/mohammednuseirat/}{\underline{linkedin.com/in/mohammednuseirat}} $|$
+    \href{https://nuseirat.github.io/}{\underline{nuseirat.github.io}}
+\end{center}
+
+
+%
+%----------About Me-----------
+\section{About Me}
+
+    \small{\item{
+     {A computer science student at AOU and a software engineer, I have a passion for leveraging technology to solve complex problems and create innovative solutions. I am also an entrepreneur and the founder of two successful businesses, which have given me valuable experience in managing teams, developing products, and driving growth. } \\
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arab Open University}{Dammam, Eastern Province}
+      {Bachelor of Computer Science}{Aug. 2022 -- May 2026}
+   
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AOU Club co-leader}{2022 -- 2024}
+      {Arab Open University}{Madinah, Western Province}
+      \resumeItemListStart
+        \resumeItem{Lead a dynamic team in organizing diverse events and activities, fostering a vibrant student community.}
+        \resumeItem{ Develop and maintain a website for the club, utilizing coding skills to enhance user experience.}
+        \resumeItem{Act as a liaison between the club and administration, ensuring adherence to university policies and regulations.}
+        \resumeItem{Strategic planning and execution of club initiatives, fostering an inclusive and engaging environment for members.}
+        \resumeItem{Foster teamwork among club members, facilitating meetings and encouraging the exchange of ideas.}
+      \resumeItemListEnd
+      
+
+\hfill \
+    \resumeSubheading
+      {Founder Of Anavrin for Design \& Software Solutions}{2021 -- Present}
+      {Anavrin}{Sakaka, Al Jawf province}
+      \resumeItemListStart
+        \resumeItem{Lead design and software projects, ensuring alignment with client objectives.}
+        \resumeItem{Develop dynamic websites and user interfaces, incorporating coding expertise.}
+        \resumeItem{Provide tailored software solutions to enhance operational efficiency.}
+         \resumeItem{Cultivate client partnerships through collaborative engagement and timely delivery.}
+    \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Recent Work}
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{CertifyMaster} $|$ \emph{HTML, CSS, JavaScript, JSON}}{May 2024}
+          \resumeItemListStart
+          \resumeItem{Developed "CertifyMaster," an innovative platform integrating educational resources and certifications.}
+            \resumeItem{Designed visually appealing Data to enhance user experience and engagement.}
+            \resumeItem{Aimed to merge traditional education with modern technology, promoting continuous learning.}
+          \resumeItemListEnd
+          \hfill \
+      \resumeProjectHeading
+  {\textbf{Riwaya Al-Majd} $|$ \emph{HTML, CSS, JavaScript}}{Feb 2024}
+             
+          \resumeItemListStart
+          \resumeItem{Participated "Riwaya al-Majd" in the Future Technologies Competition for Future Ambassadors organized by the Ministry of Communications and Information Technology. Reached the finals among 30 participants out of 1000.}
+            \resumeItem{Created "Riwaya al-Majd," an immersive game merging traditional education with Saudi Arabia's history.}
+            \resumeItem{Utilized reverse engineering for captivating puzzles, deepening player engagement.}
+            \resumeItem{Transformed historical narratives into interactive elements and Visually appealing graphics.}
+            \resumeItem{Acts as a cultural bridge, inviting exploration of lesser-known chapters in Saudi history.}
+          \resumeItemListEnd
+\hfill \
+      \resumeProjectHeading
+          {\textbf{AOU GPA Calculator} $|$ \emph{HTML, CSS, JavaScript}}{Jan 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a GPA calculator web application tailored to the Arab Open University (AOU) grading system.}
+            \resumeItem{Used JavaScript for backend development, ensuring robustness and flexibility.}
+            \resumeItem{Designed an intuitive user interface to input course grades and calculate accurately according to AOU standards.}
+            \resumeItem{Deployed the application to provide students with a convenient tool for monitoring their academic progress.}
+          \resumeItemListEnd
+\hfill \
+      \resumeProjectHeading
+          {\textbf{Utilizing Java Materials at AOU to Enhance Programming Skills using Java} $|$ \emph{Research Paper}}{Apr 2023}
+          \resumeItemListStart
+            \resumeItem{Authored and published a comprehensive research paper on various aspects of Java programming language.}
+            \resumeItem{Explored best practices, performance optimization techniques, and real-world applications of Java development.}
+          \resumeItemListEnd
+          \hfill \
+           \resumeProjectHeading
+          {\textbf{2048 Game} $|$ \emph{Python}}{Sep 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a Python-based version of the popular 2048 puzzle game, offering a challenging gaming experience.}
+            \resumeItem{Implemented the game logic and user interface from scratch, ensuring smooth gameplay and intuitive controls.}
+             \resumeItem{Leveraged object-oriented programming principles to create modular and maintainable code for the game..}
+              \resumeItem{Published on GitHub, providing access to the source code and project documentation for review and collaboration.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%-----------Courses-----------
+
+\section{Courses}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{SQL 101} $|$ \emph{\href{https://profile.satr.codes/nuseirat/public/overview}{Satr Codes}}}{Jan 2024}
+         \hfill \
+          \resumeProjectHeading
+        {\textbf{Fullstack web development using Node.js and React} $|$ \emph{ Midocean University }}{Dec 2023}
+         \hfill \
+          \resumeProjectHeading
+        {\textbf{Task Management Skill} $|$ \emph{Imam Abdulrahman Bin Faisal University}}{Nov 2023}
+         \hfill \
+      \resumeProjectHeading
+          {\textbf{CS50's Introduction to Programming with Python} $|$ \emph{\href{https://www.edx.org/}{HarvardX}}}{Jul 2023}
+         \hfill \
+      \resumeProjectHeading
+          {\textbf{Python Data Structures} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/verify/8GEZD37BMJAK}{University of Michigan}}}{Jul 2023}
+         \hfill \
+           \resumeProjectHeading
+          {\textbf{Getting Started with Python} $|$ \emph{\href{https://www.coursera.org/account/accomplishments/verify/FGNBVFY39KXB}{University of Michigan}}}{Jul 2023}
+         \hfill \
+           \resumeProjectHeading
+          {\textbf{Bootstrap Course} $|$ \emph{\href{https://profile.satr.codes/nuseirat/public/overview}{Satr Codes}}}{Jun 2023}
+         \hfill \
+          \resumeProjectHeading
+          {\textbf{CSS Course} $|$ \emph{\href{https://profile.satr.codes/nuseirat/public/overview}{Satr Codes}}}{Jub 2023}
+         \hfill \
+          \resumeProjectHeading
+          {\textbf{HTML Course} $|$ \emph{\href{https://profile.satr.codes/nuseirat/public/overview}{Satr Codes}}}{Jun 2023}
+         \hfill \
+         \resumeProjectHeading
+          {\textbf{Python 101} $|$ \emph{\href{https://profile.satr.codes/nuseirat/public/overview}{Satr Codes}}}{Jun 2023}
+         \hfill \
+          \resumeProjectHeading
+          {\textbf{Java Programming 3} $|$ \emph{\href{https://programs.edraak.org/learn/verify-certificate/6d266517fbce4b35bbdb804b135ed380/?lang=ar}{Edraak}}}{May 2023}
+         \hfill \
+         \resumeProjectHeading
+          {\textbf{Java Programming 2} $|$ \emph{\href{https://programs.edraak.org/learn/verify-certificate/c225818deecb4cbbb37ec2608aabb7d0/?lang=ar}{Edraak}}}{Jun 2023}
+         \hfill \
+         \resumeProjectHeading
+          {\textbf{Java Programming 1} $|$ \emph{\href{https://programs.edraak.org/learn/verify-certificate/6604cdf4ba144fc19bdad58d4f4e7bd9/?lang=ar}{Edraak}}}{Jun 2023}
+         \hfill \
+         \resumeProjectHeading
+        {\textbf{Standardized Test of English Proficiency (STEP)} $|$ \emph{Qyias (Grade: 88)}}{Jul 2022}
+         \hfill \
+         \resumeProjectHeading
+        {\textbf{A1 level in german language} $|$ \emph{Goethe-Institut e.V}}{Oct 2020}
+         \hfill \
+          \resumeProjectHeading
+        {\textbf{Cyber Security} $|$ \emph{Human resources development fund KSA}}{Oct 2020}
+         \hfill \
+         
+         
+    \resumeSubHeadingListEnd
+
+
+
+
+%
+%----------- SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, Java, HTML, CSS, JavaScript.} \\
+     \textbf{Communication}{: English (fluent), Arabic (native), German (elementary).} \\
+     \textbf{Web Development}{: Experience in developing web-based projects, including Riwaya Al-Majd and AOU GPA calculator, showcasing proficiency in frontend and backend development.} \\
+     \textbf{Leadership}{: Ability to manage multiple projects and responsibilities. And Served as a co-leader of the AOU Club.}
+     \textbf{Software Engineering}{: Knowledgeable in software development methodologies such as Agile, with experience in version control systems like Git.}
+     
+     \textbf{Problem Solving}{: Strong analytical skills with the ability to identify and solve software-related issues efficiently.}
+    }}
+ \end{itemize}
+
+
+%-----------Awards-----------
+
+\section{Awards}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Programmer's Day Winner} $|$ \emph{Arab Open University}}{2023}
+          \resumeProjectHeading
+          {\textbf{Graphic Design Award} $|$ \emph{ Arab Open University}}{2022}
+          \resumeProjectHeading
+          {\textbf{Poetry Creativity Prize} $|$ \emph{ Imam Abdulrahman bin Faisal university}}{2021}
+          \resumeProjectHeading
+      
+         
+         
+    \resumeSubHeadingListEnd
+\centering \paragraph{Last Updated 5/4/2024 }
+%-------------------------------------------
+\end{document}
