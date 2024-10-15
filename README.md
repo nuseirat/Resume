@@ -9,3 +9,6 @@ Easily customizable sections for personal information, education, work experienc
 Utilizes LaTeX's powerful typesetting capabilities for beautiful document layout.
 
 Feel free to fork this repository and tailor the resume to suit your own background and preferences.
+
+[Link Text](Mohammed Alnuseirat Resume.pdf)
+
