@@ -6,6 +6,7 @@ This repository contains the LaTeX source code for my professional resume. Craft
 
 ## Features
 
+
 - **Clean and Professional Design**: A polished layout that effectively showcases your qualifications.
 
 - **Easily Customizable Sections**: Tailor sections for personal information, education, work experience, skills, and more to fit your background.
