@@ -1,6 +1,7 @@
 # Resume
 
 
+
 This repository contains the LaTeX source code for my professional resume. Crafted with precision and attention to detail, this resume template presents my qualifications, skills, and experience in a clear and elegant format.
 
 [Mohammed Alnuseirat Resume.pdf](https://github.com/user-attachments/files/17383082/Mohammed.Alnuseirat.Resume.pdf)
